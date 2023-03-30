@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #BAC05D;
+    --cor2: #D1D8A4;
+
+    --font-destaque: 'Strawberry';
+
+}
+@font-face {
+    font-family: 'Strawberry';
+    src: url(../fonts/strawberry/Strawberry\ Cheesecake.otf) format('opentype');
+    font-weight: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #d1d8a462;
+}
+header{
+    background: url(../IMG/fecc38679a668c0330b34308b4b0fe3b.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    
+    
+
+}
+.titulo{
+    position: absolute;
+    
+}
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    
+}
+.dest{
+    font-family: 'Strawberry';
+    background-color: var(--cor1);
+    color: black;
+    font-weight: 600;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 1.2em;
+    color: gray;
+    
+}
+main{
+    padding-top: 30px;
+    background-color: aliceblue;
+}
+section.lateral{
+    display: flex;
+    flex-direction: row;
+
+}
+.comeco{
+    padding-left: 30px;
+    padding-top: 50px;
+
+}
+.comeco img{
+    height: 300px;
+}
+.comeco h1 {
+    text-align: center;
+    font-size: 4em;
+}
+.comeco h2{
+    text-align:left;
+    font-size: 2.5em;
+}
+div.banner1{
+    margin: 10px;
+    background-color: white;
+    width: 190px;
+    text-align: center;
+    
+}
+div.banner1 img{
+    width: 180px;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+div.banner2{
+    background-color: white;
+    width: 190px;
+    text-align: center;
+    
+}
+div.banner2 img{
+    width: 180px;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+
+
